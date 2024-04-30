@@ -6,4 +6,5 @@ Wallet | ETH Balance | Total TX | Total USD Volume | Unique Contracts | Active M
 Адреса кошельков в wallets.txt
 
 pip install requests
+
 python main.py
