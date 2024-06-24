@@ -57,7 +57,7 @@ def get_token_balance(wallet_address, token_address):
     return token_balance
 
 def parse_data(wallet_address):
-    url = f"https://kx58j6x5me.execute-api.us-east-1.amazonaws.com/scroll/bridge-balances?walletAddress={wallet_address}"
+    url = f"https://kx58j6x5me.execute-api.us-east-1.amazonaws.com/scroll/wallet-points?walletAddress={wallet_address}"
     try:
         response = requests.get(url)
         data = response.json()
